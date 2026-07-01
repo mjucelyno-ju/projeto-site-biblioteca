@@ -82,7 +82,7 @@ aside h4 {
 }
 
 #funcionamento li {
-    padding: 0, 5rem 0;
+    padding: 0.5rem 0;
     border-bottom: 1px solid #e2e8f0;
 }
 
@@ -110,7 +110,7 @@ aside h4 {
     background-color: #f8fafc;
     border-radius: 6px;
     width: 160px;
-    box-shadow: 0 2px 4px color rgb(0, 0, 0, 0.05);
+    box-shadow: 0 2px 4px rgb(0, 0, 0, 0.05);
 }
 
 article {
