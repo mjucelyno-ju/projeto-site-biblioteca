@@ -3,17 +3,17 @@
 }
 
 body {
-    background-color: #e4fef5;
+    background-color: #f1f5f9;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    color: #302f2f;
+    color: #334155;
 
 }
 
 #cabecalho {
-    background-color: #1e293b;
+    background-color: #0f172a;
     color: #ffffff;
-    padding: 1rem 0;
+    padding: 2rem 1rem;
     font-size: 1.5rem;
     text-align: center;
 }
@@ -31,15 +31,15 @@ body {
 #cabecalho p {
     margin: 0;
     font-size: 1.5rem;
-    color: rgb(253, 253, 253);
+    color: #94a3b8;
 }
 
 nav {
-    background-color: #0f172a;
+    background-color: #1e293b;
     display: flex;
     justify-content: center;
     gap: 20px;
-    padding: 0.8rem;
+    padding: 1rem;
 }
 
 nav a {
@@ -48,10 +48,11 @@ nav a {
     font-weight: bolder;
     text-transform: uppercase;
     font-size: 0.9rem;
+    transition: color 0.2s;
 }
 
 nav a:hover {
-    color: #086086;
+    color: #38bdf8;
 }
 
 #bloco {
@@ -60,17 +61,27 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    padding: 0 1rem;
+}
+
+section,
+article,
+aside {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px -1px rgb(0, 0, 0, 0.1);
 }
 
 section h2,
-article h3,
+article h2,
 aside h4 {
-    color: #1e293b;
+    color: #0f172a;
     margin-top: 0;
 }
 
 #funcionamento {
-    background-color: rgb(235, 138, 138);
+    background-color: #fef2f2;
     padding: 2rem;
     border-radius: 8px;
     border-left: 5px solid #ef4444;
@@ -84,53 +95,75 @@ aside h4 {
 #funcionamento li {
     padding: 0.5rem 0;
     border-bottom: 1px solid #e2e8f0;
+    color: #991b1b;
 }
 
 #novidades {
     background-color: #ffffff;
     text-align: center;
     border-radius: 8px;
+    border: 1px solid #e2e8f0;
 
 }
 
 #novidades p {
-    color: #5f728d;
+    color: #64748b;
 }
-
 
 .livros {
     display: flex;
     flex-wrap: wrap;
-    gap: 5px;
+    gap: 1.5rem;
     justify-content: center;
     margin-top: 1.5rem;
 }
 
 .livros figure {
     background-color: #f8fafc;
-    border-radius: 6px;
-    width: 160px;
-    box-shadow: 0 2px 4px rgb(0, 0, 0, 0.05);
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    width: 180px;
+    padding: 1rem;
+    margin: 0;
+    box-shadow: 0 2px 4px rgb(0, 0, 0, 0.02);
+}
+
+.livros img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.livros figure p {
+    margin: 0.2rem 0 0 0;
+    font-size: 0.9rem;
+}
+
+figcaption {
+    font-weight: bold;
+    margin-top: 0.5rem;
+    color: #1e293b;
 }
 
 article {
-    background-color: sandybrown;
+    background-color: #fffbeb;
     padding: 2rem;
     border-radius: 8px;
     border-left: 5px solid #f59e0b;
 }
 
-article h2 {
-    color: #0f172a;
+article h3 {
+    color: #1e293b;
     margin: 1.5rem 0 0.2rem 0;
 }
 
 article p {
-    color: #475569;
+    color: #64748b;
+    margin-top: 0;
 }
 
 aside {
-    background-color: rgb(198, 144, 135);
+    background-color: #f0fdf4;
     padding: 2rem;
     border-radius: 8px;
     border-left: 5px solid #10b981;
@@ -142,17 +175,17 @@ aside ol {
 
 aside li {
     padding: 0.4rem 0;
-    color: #475569;
+    color: #64748b;
 }
 
 
 footer {
-    background-color: #1e293b;
+    background-color: #0f172a;
     color: #94a3b8;
     text-align: center;
     padding: 2rem 1rem;
     margin-top: 2rem;
-    border-radius: 8px 8px 0 0;
+    border-radius: 8px;
 }
 
 footer p {
