@@ -5,11 +5,13 @@
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <title>livros-reservas</title>
-    <link rel='stylesheet' href='main.css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+    <link rel='stylesheet' href='reserva.css'>
 </head>
 
 <body>
-    <header>
+    <header id="começo">
         <p>biblioteca comunitaria</p>
     </header>
     <nav>
@@ -92,12 +94,18 @@
                 <input id="name" name="nome" type="text">
                 <label for="email">Email:</label>
                 <input id="email" name="email" type="email" required>
+                <label for="data de devoluçao">data de devoluçao:</label>
+                <input id="data de devoluçao" name="data de devoluçao" type="date">
+                <button type="submit">Confirmar Reserva</button>
+                <button type="reset">Limpar</button>
             </form>
         </aside>
         <footer>
             <p>contatos para informaçoes:</p>
             <p>numero do WhatsApp: 84 98769-2345.</p>
             <p>Email:bibliotecacomunitaria@gmail.com</p>
+            <p>rua do limao,255</p>
+            <p>Bairro casa azul-Rio De Janeiro/RJ</p>
         </footer>
     </main>
 
