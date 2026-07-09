@@ -12,14 +12,14 @@
 
 <body>
     <header id="comeco">
-        <p>biblioteca comunitaria</p>
+        <p class="h1">biblioteca comunitaria da cidade de são januario.</p>
     </header>
     <nav>
-        <a href="">Inicio</a>
-        <a href="">Acervo</a>
-        <a href="">serviços</a>
-        <a href="">Contatos</a>
-        <a href="">sinopse</a>
+        <a href="index.html">Inicio</a>
+        <a href="Acervo.html">Acervo</a>
+        <a href="#formulario">serviços</a>
+        <a href="#contatos">Contatos</a>
+        <a href="#sinopse">sinopse</a>
     </nav>
     <main>
         <section id="capa-livro">
@@ -37,7 +37,7 @@
             <p><strong>idioma: </strong>Português</p>
             <p><strong>Gênero: </strong>Romance e Literatura Cristã</p>
         </section>
-        <section>
+        <section  id="sinopse">
             <h2>Sinopse</h2>
             <p>Lara, uma adolescente urbana, vê sua vida mudar ao se mudar para a roça em Minas Gerais com seu pai
                 viúvo, trocando a tecnologia pela vida no campo. Em meio a desafios de adaptação, ela encontra em um
@@ -91,7 +91,7 @@
         </article>
         <aside>
             <p>formulario de reserva</p>
-            <form>
+            <form id="formulario">
                 <label for="nome">Nome:</label>
                 <input id="nome" name="nome" type="text">
                 <label for="email">Email:</label>
@@ -102,12 +102,19 @@
                 <button type="reset">Limpar</button>
             </form>
         </aside>
-        <footer>
-            <p>contatos para informaçoes:</p>
-            <p>numero do WhatsApp: 84 98769-2345.</p>
-            <p>Email:bibliotecacomunitaria@gmail.com</p>
-            <p>rua do limao,255</p>
-            <p>Bairro casa azul-Rio De Janeiro/RJ</p>
+        <footer id="contatos">
+            <div class="footer-container">
+                <div class="footer-bloco">
+                    <p>contatos para informaçoes:</p>
+                    <p>numero do WhatsApp: 84 98769-2345.</p>
+                    <p>Email:bibliotecacomunitaria@gmail.com</p>
+                </div>
+                <div class="linha-vertical"></div>
+                <div class="footer-bloco">
+                    <p>rua do limao,255</p>
+                    <p>Bairro casa azul-Rio De Janeiro/RJ</p>
+                </div>
+            </div>
         </footer>
     </main>
 
