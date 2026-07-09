@@ -1,12 +1,88 @@
 <!DOCTYPE html>
-<html lang='pt-BR'>
+<html lang="pt-BR">
 <head>
-    <meta charset='utf-8'>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <title>Acervo-biblioteca-comunitária</title>
-    <link rel='stylesheet' href='main.css'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acervo da Biblioteca</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <a href="index.html">inicio</a>
+
+    <header>
+        <div class="container">
+            <h1>Acervo da Biblioteca de São Januário</h1>
+
+            <div class="search-box">
+                <input type="text" placeholder="Buscar por título, autor ou gênero...">
+                <button>Pesquisar</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <h2>Acervo de Livros</h2>
+
+        <div class="book-grid">
+
+            <!-- Livro 1 -->
+            <div class="book-card">
+                <img src="https://m.media-amazon.com/images/I/61x1ZHomWUL.jpg" alt="Dom Casmurro">
+                <div class="book-info">
+                    <h3>Dom Casmurro</h3>
+                    <p class="author">Machado de Assis</p>
+                    <p class="genre">Gênero: Romance / Literatura Brasileira</p>
+                    <button class="btn-detalhes">Ver Detalhes</button>
+                </div>
+            </div>
+
+            <!-- Livro 2 -->
+            <div class="book-card">
+                <img src="https://m.media-amazon.com/images/I/61t0bwt1s3L._AC_UF1000,1000_QL80_.jpg" alt="1984">
+                <div class="book-info">
+                    <h3>1984</h3>
+                    <p class="author">George Orwell</p>
+                    <p class="genre">Gênero: Distopia / Ficção Científica</p>
+                    <button class="btn-detalhes">Ver Detalhes</button>
+                </div>
+            </div>
+
+            <!-- Livro 3 -->
+            <div class="book-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFB3-CI53g4NZHuL5XtVohk7F9Bn6p2fJ3EykQH4JDZg&s=10" alt="O Peregrino">
+                <div class="book-info">
+                    <h3>O Peregrino</h3>
+                    <p class="author">John Bunyan</p>
+                    <p class="genre">Gênero: Alegoria Cristã / Ficção</p>
+                    <button class="btn-detalhes">Ver Detalhes</button>
+                </div>
+            </div>
+
+            <!-- Livro 4 -->
+            <div class="book-card">
+                <img src="https://m.media-amazon.com/images/I/81R+HyKqtwL._AC_UF1000,1000_QL80_.jpg" alt="Cristianismo Puro e Simples">
+                <div class="book-info">
+                    <h3>Cristianismo Puro e Simples</h3>
+                    <p class="author">C. S. Lewis</p>
+                    <p class="genre">Gênero: Cristão / Religioso</p>
+                    <button class="btn-detalhes">Ver Detalhes</button>
+                </div>
+            </div>
+
+            <!-- Livro 5 -->
+            <div class="book-card">
+                <img src="https://m.media-amazon.com/images/I/71RvlSmPk1L.jpg" alt="Meu Sol de Primavera">
+                <div class="book-info">
+                    <h3>Meu Sol de Primavera</h3>
+                    <p class="author">Queren Ane</p>
+                    <p class="genre">Gênero: Ficção Cristã Juvenil / Romance Adolescente</p>
+                    <button class="btn-detalhes">Ver Detalhes</button>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
 </body>
 </html>
