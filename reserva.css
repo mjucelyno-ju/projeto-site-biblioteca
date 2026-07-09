@@ -13,7 +13,7 @@ body {
 
 #comeco {
     background-color: #475569;
-    color: #ffffff;
+    color: #38bdf8;;
     text-align: center;
     font-weight: bold;
     padding: 1rem;
@@ -127,7 +127,12 @@ th {
     text-transform: uppercase;
     font-size: 0.85rem;
 }
-
+aside p{
+    text-align: center;
+    color: #15803d;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
 form {
     background-color: #f8fafc;
     padding: 1.5rem;
@@ -192,7 +197,36 @@ footer {
     border-radius: 6px;
     margin-top: 2rem;
 }
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    gap: 2rem;
+}
 
+.footer-bloco {
+    flex: 1;
+    text-align: center;
+}
+
+.linha-vertical {
+    width: 2px;
+    height: 80px; 
+    background-color: #475569; 
+}
+
+@media (max-width: 600px) {
+    .footer-container {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .linha-vertical {
+        width: 50px;
+        height: 2px; 
+    }
+}
 footer p {
     margin-bottom: 0.3rem;
 }
