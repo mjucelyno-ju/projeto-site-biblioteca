@@ -113,7 +113,15 @@ caption {
     text-align: left;
     color: #0f172a;
 }
+.disponivel{
+    color:#16a34a;
+    font-weight:bold;
+}
 
+.emprestado{
+    color:#dc2626;
+    font-weight:bold;
+}
 th,
 td {
     padding: 0.75rem;
