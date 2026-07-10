@@ -115,8 +115,9 @@ article h2 {
     gap: 1.5rem;
     justify-content: center;
     margin-top: 1.5rem;
-   
+
 }
+
 .livros .card-livro {
     background-color: #f8fafc;
     border: 1px solid #e2e8f0;
@@ -130,6 +131,7 @@ article h2 {
     justify-content: space-between;
     transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
 }
+
 .livros .card-livro:hover {
     transform: translateY(-5px);
     border-color: #38bdf8;
@@ -175,6 +177,8 @@ article h3 {
     margin: 1.5rem 0 0.2rem 0;
 }
 
+
+
 article p {
     color: #64748b;
     margin-top: 0;
@@ -188,16 +192,64 @@ aside {
     border-left: 5px solid #10b981;
 }
 
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.item-servico {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.item-servico:hover {
+    transform: translateY(-5px);
+    border: 1px solid #007bff;
+}
+
 aside h4 {
     color: #0f172a;
     margin-top: 0;
     text-align: center;
     border-bottom: 2px solid #4caf50;
     padding-bottom: 10px;
-    
+
 }
-.card-serviços{
+
+.card-servicos {
     background-color: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    font-family: sans-serif;
+
+
+}
+
+.card-servicos ol {
+    list-style: none;
+    padding: 0;
+}
+
+.card-servicos li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+
+}
+
+.card-servicos a {
+    text-decoration: none;
+    color: #157419;
+
 }
 
 footer {
@@ -229,9 +281,10 @@ footer a:hover {
     color: #38bdf8;
     transition: 0.3s;
 }
-.livro:hover{
+
+.livro:hover {
     transform: translateY(-0.25rem);
-border-color: #60a5fa;
-  box-shadow: 0 0.75rem 1.5rem #cbd5e1;
+    border-color: #60a5fa;
+    box-shadow: 0 0.75rem 1.5rem #cbd5e1;
 
 }
