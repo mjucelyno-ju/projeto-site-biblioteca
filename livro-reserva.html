@@ -12,111 +12,114 @@
 
 <body>
     <header id="comeco">
-        <p class="h1">biblioteca comunitaria da cidade de são januario.</p>
+        <h1>biblioteca comunitaria da cidade de são januario.</h1>
     </header>
     <nav>
-        <a href="index.html">Inicio</a>
-        <a href="Acervo.html">Acervo</a>
-        <a href="#formulario">serviços</a>
-        <a href="#contatos">Contatos</a>
-        <a href="#sinopse">sinopse</a>
+        <div class="container navbar">
+            <a href="index.html">Inicio</a>
+            <a href="Acervo.html">Acervo</a>
+            <a href="#formulario">serviços</a>
+            <a href="#contatos">Contatos</a>
+            <a href="#sinopse">sinopse</a>
+        </div>
     </nav>
-    <main>
+    <main class="container my-5">
         <section id="capa-livro">
-            <h1>Meu Querido Caipira</h1>
+            <h2>Meu Querido Caipira</h2>
             <figure>
                 <img src="https://m.media-amazon.com/images/I/41iupuUmANL.jpg" alt="livro Meu Querido Caipira">
                 <figcaption>Maina Mattos (Autora)</figcaption>
             </figure>
         </section>
         <section class="descricao">
-            <p class="paragrafo-1"><strong>Autora: </strong>Maina Mattos</p>
+            <p><strong>Autora: </strong>Maina Mattos</p>
             <p><strong>Editora: </strong>Thomas Nelson Brasil</p>
             <p><strong>Ano: </strong>2022</p>
             <p><strong>Páginas: </strong>196</p>
             <p><strong>idioma: </strong>Português</p>
             <p><strong>Gênero: </strong>Romance e Literatura Cristã</p>
         </section>
-        <section  id="sinopse">
-            <h2>Sinopse</h2>
+        <section id="sinopse">
+            <h2>Sinopse</h2> 
             <p>Lara, uma adolescente urbana, vê sua vida mudar ao se mudar para a roça em Minas Gerais com seu pai
                 viúvo, trocando a tecnologia pela vida no campo. Em meio a desafios de adaptação, ela encontra em um
                 jovem caipira da fazenda vizinha um incentivo para retomar sua fé. O livro narra uma história de amor e
                 redescoberta espiritual.</p>
         </section>
         <article>
-            <table id="tabela">
-                <caption>Exemplares</caption>
-                <thead>
-                    <tr>
-                        <th>codigo</th>
-                        <th>localizaçao</th>
-                        <th>tipo</th>
-                        <th>status</th>
-                        <th>data de devoluçao</th>
-                    </tr>
-                </thead>
-                <tbody class="status-livro">
-                    <tr>
-                        <td>HJ-456780</td>
-                        <td>Estante-A-Ficçao/A04</td>
-                        <td>Livro</td>
-                        <td class="disponivel">disponivel>disponivel</td>
-                        <td>03/02/2026</td>
-                    </tr>
-                    <tr>
-                        <td>HJ-475534</td>
-                        <td>Estante-A-Ficçao/A05</td>
-                        <td>Livro</td>
-                        <td class="emprestado">Emprestado</td>
-                        <td>03/10/2026</td>
-                    </tr>
-                    <tr>
-                        <td>HJ-959780</td>
-                        <td>Estante-B-Ficçao/A09</td>
-                        <td>Livro</td>
-                        <td>Emprestado</td>
-                        <td>10/05/2026</td>
-                    </tr>
-                    <tr>
-                        <td>HJ-551780</td>
-                        <td>Estante-B-Ficçao/A06</td>
-                        <td>Livro</td>
-                        <td>disponivel</td>
-                        <td>15/08/2026</td>
-                    </tr>
-                </tbody>
-            </table>
+            <div class="table-responsive mt-4">
+                <table id="tabela">
+                    <caption class="fs-5 fw-bold">Exemplares</caption>
+                    <thead>
+                        <tr>
+                            <th>codigo</th>
+                            <th>localizaçao</th>
+                            <th>tipo</th>
+                            <th>status</th>
+                            <th>data de devoluçao</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>HJ-456780</td>
+                            <td>Estante-A-Ficçao/A04</td>
+                            <td>Livro</td>
+                            <td><span class="badge bg-success">Disponivel</span></td>
+                            <td>---------------</td>
+                        </tr>
+                        <tr>
+                            <td>HJ-475534</td>
+                            <td>Estante-A-Ficçao/A05</td>
+                            <td>Livro</td>
+                            <td><span class="badge bg-danger">Emprestado</span></td>
+                            <td>03/10/2026</td>
+                        </tr>
+                        <tr>
+                            <td>HJ-959780</td>
+                            <td>Estante-B-Ficçao/A09</td>
+                            <td>Livro</td>
+                            <td><span class="badge bg-danger">Emprestado</span></td>
+                            <td>10/05/2026</td>
+                        </tr>
+                        <tr>
+                            <td>HJ-551780</td>
+                            <td>Estante-B-Ficçao/A06</td>
+                            <td>Livro</td>
+                            <td><span class="badge bg-success">Disponivel</span></td>
+                            <td>---------------</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </article>
         <aside>
-            <p>formulario de reserva</p>
+            <h3>formulario de reserva</h3>
             <form id="formulario">
                 <label for="nome">Nome:</label>
-                <input id="nome" name="nome" type="text">
+                <input id="nome" name="nome" type="text" required minlength="3" placeholder="digite seu nome">
                 <label for="email">Email:</label>
-                <input id="email" name="email" type="email" required>
-                <label for="data-de-devoluçao">data de devoluçao:</label>
-                <input id="data-de-devoluçao" name="data-de-devoluçao" type="date">
-                <button type="submit">Confirmar Reserva</button>
-                <button type="reset">Limpar</button>
+                <input id="email" name="email" type="email" required placeholder="exemplo@email.com">
+                <label for="data-de-devolucao">data de devoluçao:</label>
+                <input id="data-de-devolucao" name="data-de-devolucao" type="date">
+                <button type="submit" class="btn btn-success">Confirmar Reserva</button>
+                <button type="reset" class="btn btn-secondary">Limpar</button>
             </form>
         </aside>
-        <footer id="contatos">
-            <div class="footer-container">
-                <div class="footer-bloco">
-                    <p>contatos para informaçoes:</p>
-                    <p>numero do WhatsApp: 84 98769-2345.</p>
-                    <p>Email:bibliotecacomunitaria@gmail.com</p>
-                </div>
-                <div class="linha-vertical"></div>
-                <div class="footer-bloco">
-                    <p>rua do limao,255</p>
-                    <p>Bairro casa azul-Rio De Janeiro/RJ</p>
-                </div>
-            </div>
-        </footer>
     </main>
-
+    <footer id="contatos">
+        <div class="footer-container">
+            <div class="footer-bloco">
+                <p>contatos para informaçoes:</p>
+                <p>numero do WhatsApp: 84 98769-2345.</p>
+                <p>Email:bibliotecacomunitaria@gmail.com</p>
+            </div>
+            <div class="linha-vertical"></div>
+            <div class="footer-bloco">
+                <p>rua do limao,255</p>
+                <p>Bairro casa azul-Rio De Janeiro/RJ</p>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
