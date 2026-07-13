@@ -10,28 +10,30 @@
     <link rel='stylesheet' href='reserva.css'>
 </head>
 
-<body>
-    <header id="comeco">
-        <h1>biblioteca comunitaria da cidade de são januario.</h1>
+<body id="topo">
+    <header id="comeco" class="bg-dark text-center text-white py-4">
+        <h1>Biblioteca Comunitária da Cidade de São Januario.</h1>
     </header>
     <nav>
-        <div class="container navbar">
-            <a href="index.html">Inicio</a>
-            <a href="Acervo.html">Acervo</a>
-            <a href="#formulario">serviços</a>
-            <a href="#contatos">Contatos</a>
-            <a href="#sinopse">sinopse</a>
-        </div>
+        <a href="index.html">Início</a>
+        <a href="Acervo.html">Acervo</a>
+        <a href="#formulario">serviços</a>
+        <a href="#contatos">Contatos</a>
+        <a href="#sinopse">sinopse</a>
     </nav>
-    <main class="container my-5">
-        <section id="capa-livro">
-            <h2>Meu Querido Caipira</h2>
+    <main class="container my-5 p-4 bg-white rounded shadow">
+        <section class="text-center bg-light p-4 rounded border">
+            <h2 class="border-bottom pb-2 mb-3 text-dark">Meu Querido Caipira</h2>
             <figure>
-                <img src="https://m.media-amazon.com/images/I/41iupuUmANL.jpg" alt="livro Meu Querido Caipira">
+                <img src="https://m.media-amazon.com/images/I/41iupuUmANL.jpg" srcset="
+        https://m.media-amazon.com/images/I/41iupuUmANL.jpg 300w,
+        https://m.media-amazon.com/images/I/41iupuUmANL.jpg 600w
+    " sizes="(max-width:768px) 150px, 200px" loading="lazy" alt="livro Meu Querido Caipira" width="200" height="300"
+                    class="img-fluid rounded shadow">
                 <figcaption>Maina Mattos (Autora)</figcaption>
             </figure>
         </section>
-        <section class="descricao">
+        <section id="descricao" class="mb-5">
             <p><strong>Autora: </strong>Maina Mattos</p>
             <p><strong>Editora: </strong>Thomas Nelson Brasil</p>
             <p><strong>Ano: </strong>2022</p>
@@ -39,8 +41,8 @@
             <p><strong>idioma: </strong>Português</p>
             <p><strong>Gênero: </strong>Romance e Literatura Cristã</p>
         </section>
-        <section id="sinopse">
-            <h2>Sinopse</h2> 
+        <section id="sinopse" class="mb-5">
+            <h2>Sinopse</h2>
             <p>Lara, uma adolescente urbana, vê sua vida mudar ao se mudar para a roça em Minas Gerais com seu pai
                 viúvo, trocando a tecnologia pela vida no campo. Em meio a desafios de adaptação, ela encontra em um
                 jovem caipira da fazenda vizinha um incentivo para retomar sua fé. O livro narra uma história de amor e
@@ -48,15 +50,15 @@
         </section>
         <article>
             <div class="table-responsive mt-4">
-                <table id="tabela">
+                <table id="tabela" class="table table-striped table-hover table-bordered align-middle">
                     <caption class="fs-5 fw-bold">Exemplares</caption>
                     <thead>
                         <tr>
-                            <th>codigo</th>
-                            <th>localizaçao</th>
-                            <th>tipo</th>
-                            <th>status</th>
-                            <th>data de devoluçao</th>
+                            <th scope="col">codigo</th>
+                            <th scope="col">Localização</th>
+                            <th scope="col">tipo</th>
+                            <th scope="col">status</th>
+                            <th scope="col">data de devoluçao</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -64,7 +66,7 @@
                             <td>HJ-456780</td>
                             <td>Estante-A-Ficçao/A04</td>
                             <td>Livro</td>
-                            <td><span class="badge bg-success">Disponivel</span></td>
+                            <td><span class="badge bg-success">Disponível</span></td>
                             <td>---------------</td>
                         </tr>
                         <tr>
@@ -85,7 +87,7 @@
                             <td>HJ-551780</td>
                             <td>Estante-B-Ficçao/A06</td>
                             <td>Livro</td>
-                            <td><span class="badge bg-success">Disponivel</span></td>
+                            <td><span class="badge bg-success">Disponível</span></td>
                             <td>---------------</td>
                         </tr>
                     </tbody>
@@ -93,31 +95,50 @@
             </div>
         </article>
         <aside>
-            <h3>formulario de reserva</h3>
-            <form id="formulario">
-                <label for="nome">Nome:</label>
-                <input id="nome" name="nome" type="text" required minlength="3" placeholder="digite seu nome">
-                <label for="email">Email:</label>
-                <input id="email" name="email" type="email" required placeholder="exemplo@email.com">
-                <label for="data-de-devolucao">data de devoluçao:</label>
-                <input id="data-de-devolucao" name="data-de-devolucao" type="date">
-                <button type="submit" class="btn btn-success">Confirmar Reserva</button>
-                <button type="reset" class="btn btn-secondary">Limpar</button>
+            <h3 class="text-center text-success text-uppercase">formulario de reserva</h3>
+            <form id="formulario" class="d-flex flex-column gap-3">
+                <fieldset>
+                    <legend>Dados para Reserva</legend>
+                    <label for="nome">Nome:</label>
+                    <input id="nome" name="nome" type="text" required minlength="3" placeholder="digite seu nome"
+                        class="form-control" autocomplete="name">
+                    <label for="email">Email:</label>
+                    <input id="email" name="email" type="email" required placeholder="exemplo@email.com"
+                        class="form-control" autocomplete="email">
+                    <label for="data-de-devolucao">data de devoluçao:</label>
+                    <input id="data-de-devolucao" name="data-de-devolucao" type="date" class="form-control">
+                    <div class="d-flex gap-2 mt-3">
+                        <button type="submit" class="btn btn-success">Confirmar Reserva</button>
+                        <button type="reset" class="btn btn-secondary">Limpar</button>
+                    </div>
+                </fieldset>
             </form>
         </aside>
     </main>
     <footer id="contatos">
         <div class="footer-container">
             <div class="footer-bloco">
-                <p>contatos para informaçoes:</p>
-                <p>numero do WhatsApp: 84 98769-2345.</p>
-                <p>Email:bibliotecacomunitaria@gmail.com</p>
+                <h4>📚 Biblioteca Comunitária</h4>
+                <p>Conectando pessoas através da leitura.</p>
             </div>
-            <div class="linha-vertical"></div>
             <div class="footer-bloco">
-                <p>rua do limao,255</p>
-                <p>Bairro casa azul-Rio De Janeiro/RJ</p>
+                <h4>Contato</h4>
+                <p>📱 WhatsApp: (84) 98769-2345</p>
+                <p>📧 bibliotecacomunitaria@gmail.com</p>
             </div>
+            <div class="footer-bloco">
+                <h4>Endereço</h4>
+                <p>Rua do Limão, 255</p>
+                <p>Bairro Casa Azul</p>
+                <p>Rio de Janeiro - RJ</p>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-bottom">
+            <a href="#topo" class="btn-topo">
+                ↑ Voltar ao início
+            </a>
+            <p>© 2026 Biblioteca Comunitária. Todos os direitos reservados.</p>
         </div>
     </footer>
 </body>
