@@ -1,4 +1,3 @@
-
 *{
     margin:0;
     padding:0;
@@ -82,22 +81,6 @@ main h2{
     margin: 20px 0;
 }
 
-.btn-inicio {
-    display: inline-block;
-    background-color: #0b5ed7;
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 8px;
-    font-size: 16px;
-    transition: 0.3s;
-}
-
-.btn-inicio:hover {
-    background-color: #084298;
-}
-
-/* Grade dos livros */
 .book-grid{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
@@ -183,6 +166,12 @@ main h2{
         max-width:400px;
     }
 
+}
+aside{
+    background-color:orange;
+}
+aside li{
+    color:lime;
 }
 
 footer {
