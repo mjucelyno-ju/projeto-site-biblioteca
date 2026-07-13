@@ -1,35 +1,42 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Acervo da Biblioteca</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
-    <link rel="stylesheet" href="Acervo-estilo.css">
+    <link rel="stylesheet" href="acervo.css">
 </head>
-
 <body>
 
-    <header>
+    <header id="cabecalho">
         <div class="container">
             <h1>Acervo da Biblioteca de São Januário</h1>
-
-            <div class="search-box">
+            <p>os melhores livros voce encontra aqui.</p>
+    </header>
+    <nav class="navbar d-flex flex-wrap justify-content-center py-3 gap-4">
+        <a class="nav-link  fw-bold text-uppercase" href="#comeco">Inicio</a>
+        <a class="nav-link  fw-bold text-uppercase" href="Acervo.html">Acervo</a>
+        <a class="nav-link  fw-bold text-uppercase" href="#clubes">Clubes</a>
+        <a class="nav-link  fw-bold text-uppercase" href="#contatos">Contatos</a>
+    </nav>
+    <main class="container">
+         <div class="search-box">
                 <input type="text" placeholder="Buscar por título, autor ou gênero...">
                 <button>Pesquisar</button>
             </div>
         </div>
-    </header>
-
-    <main class="container">
 
         <h2>Acervo de Livros</h2>
+<div class="inicio">
+    <a href="inicio.html" class="btn-inicio">
+        Voltar à página
+    </a>
+</div>
 
         <div class="book-grid">
-
-
             <div class="book-card">
                 <img src="https://m.media-amazon.com/images/I/61x1ZHomWUL.jpg" alt="Dom Casmurro">
                 <div class="book-info">
@@ -39,8 +46,6 @@
                     <button class="btn-detalhes">Ver Detalhes</button>
                 </div>
             </div>
-
-
             <div class="book-card">
                 <img src="https://m.media-amazon.com/images/I/61t0bwt1s3L._AC_UF1000,1000_QL80_.jpg" alt="1984">
                 <div class="book-info">
@@ -50,11 +55,8 @@
                     <button class="btn-detalhes">Ver Detalhes</button>
                 </div>
             </div>
-
-        
             <div class="book-card">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFB3-CI53g4NZHuL5XtVohk7F9Bn6p2fJ3EykQH4JDZg&s=10"
-                    alt="O Peregrino">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFB3-CI53g4NZHuL5XtVohk7F9Bn6p2fJ3EykQH4JDZg&s=10" alt="O Peregrino">
                 <div class="book-info">
                     <h3>O Peregrino</h3>
                     <p class="author">John Bunyan</p>
@@ -62,11 +64,8 @@
                     <button class="btn-detalhes">Ver Detalhes</button>
                 </div>
             </div>
-
-           
             <div class="book-card">
-                <img src="https://m.media-amazon.com/images/I/81R+HyKqtwL._AC_UF1000,1000_QL80_.jpg"
-                    alt="Cristianismo Puro e Simples">
+                <img src="https://m.media-amazon.com/images/I/81R+HyKqtwL._AC_UF1000,1000_QL80_.jpg" alt="Cristianismo Puro e Simples">
                 <div class="book-info">
                     <h3>Cristianismo Puro e Simples</h3>
                     <p class="author">C. S. Lewis</p>
@@ -74,8 +73,6 @@
                     <button class="btn-detalhes">Ver Detalhes</button>
                 </div>
             </div>
-
-           
             <div class="book-card">
                 <img src="https://m.media-amazon.com/images/I/71RvlSmPk1L.jpg" alt="Meu Sol de Primavera">
                 <div class="book-info">
@@ -85,11 +82,8 @@
                     <button class="btn-detalhes">Ver Detalhes</button>
                 </div>
             </div>
-
-           
             <div class="book-card">
-                <img src="https://m.media-amazon.com/images/I/81yKgdRQqHL._AC_UF1000,1000_QL80_.jpg"
-                    alt="O Diário de Anne Frank">
+                <img src="https://m.media-amazon.com/images/I/81yKgdRQqHL._AC_UF1000,1000_QL80_.jpg" alt="O Diário de Anne Frank">
                 <div class="book-info">
                     <h3>O Diário de Anne Frank</h3>
                     <p class="author">Anne Frank</p>
@@ -98,6 +92,7 @@
                 </div>
             </div>
 
+        
             <div class="book-card">
                 <img src="https://m.media-amazon.com/images/I/71OL9RU2tJL.jpg" alt="Memórias Póstumas de Brás Cubas">
                 <div class="book-info">
@@ -108,20 +103,54 @@
                 </div>
             </div>
 
-            <div class="book-card">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBiTazf1myPNzL6Cqo8wFp6Jhmrlrh5r_fiKRe4j0l0lyNHWG-zsnIZokS&s=10"
-                    alt="A noite dos mortos-vivos">
-                <div class="book-info">
-                    <h3>A Noite dos Mortos-Vivos</h3>
-                    <p class="author">John Russo</p>
-                    <p class="genre">Gênero: Ficção científica / Terror</p>
-                    <button class="btn-detalhes">Ver detalhes
-                        <link rel="stylesheet" href="">
-                    </button>
-                </div>
+       
+        <div class="book-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBiTazf1myPNzL6Cqo8wFp6Jhmrlrh5r_fiKRe4j0l0lyNHWG-zsnIZokS&s=10" alt="A noite dos mortos-vivos">
+            <div class="book-info">
+                <h3>A Noite dos Mortos-Vivos</h3>
+                <p class="author">John Russo</p>
+                <p class="genre">Gênero: Ficção científica / Terror</p>
+                <button class="btn-detalhes">Ver detalhes <link rel="stylesheet" href=""></button>
+
+                
+                <img src="https://m.media-amazon.com/images/I/81zRlL3nSBL._UF1000,1000_QL80_.jpg" alt="Meu querido caipira">
+            <div class="book-info">
+                <h3>Meu querido caipira</h3>
+                <p class="author">Maina Mattos</p>
+                <p class="genre">Romance / Cristão</p>
+              <a href="livros-reservas.html">
+    <button class="btn-detalhes">Ver Detalhes</button>
+</a>
+
+        </div>
 
     </main>
-
+      <footer id="contatos">
+        <div class="footer-container">
+            <div class="footer-bloco">
+                <h4>📚 Biblioteca Comunitária</h4>
+                <p>Conectando pessoas através da leitura.</p>
+            </div>
+            <div class="footer-bloco">
+                <h4>Contato</h4>
+                <p>📱 WhatsApp: (84) 98769-2345</p>
+                <p>📧 bibliotecacomunitaria@gmail.com</p>
+            </div>
+            <div class="footer-bloco">
+                <h4>Endereço</h4>
+                <p>Rua do Limão, 255</p>
+                <p>Bairro Casa Azul</p>
+                <p>Rio de Janeiro - RJ</p>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-bottom">
+            <a href="#topo" class="btn-topo">
+                ↑ Voltar ao início
+            </a>
+            <p>© 2026 Biblioteca Comunitária. Todos os direitos reservados.</p>
+        </div>
+    </footer>
 </body>
 
 </html>
