@@ -4,26 +4,26 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Biblioteca comunitaria.</title>
+    <title>Biblioteca Comunitaria.</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
     <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
 </head>
 
-<body>
-    <header id="cabecalho">
-        <h1 id="inicio">biblioteca comunitária da cidade de são januario.</h1>
+<body id="topo">
+    <header id="cabecalho" class="bg-dark text-center text-white py-5">
+        <h1 id="inicio" class="text-info mb-2 display-5">Biblioteca Comunitária Da Cidade De São Januario.</h1>
         <p>seja bem vindo,é hora de se conectar atraves da leitura.</p>
     </header>
-    <nav>
-        <a href="#topo">Inicio</a>
-        <a href="Acervo.html">Acervo</a>
-        <a href="#clubes">Clubes</a>
-        <a href="#contatos">Contatos</a>
+    <nav class="navbar d-flex flex-wrap justify-content-center py-3 gap-4">
+        <a class="nav-link  fw-bold text-uppercase" href="#comeco">Inicio</a>
+        <a class="nav-link  fw-bold text-uppercase" href="Acervo.html">Acervo</a>
+        <a class="nav-link  fw-bold text-uppercase" href="#clubes">Clubes</a>
+        <a class="nav-link  fw-bold text-uppercase" href="#contatos">Contatos</a>
     </nav>
-    <main id="bloco">
-        <section id="funcionamento">
+    <main id="bloco" class="container my-4 d-flex flex-column gap-4">
+        <section id="funcionamento" class="p-4 rounded shadow-sm">
             <h2 id="começo">Horarios de Funcionamento.</h2>
             <ul>
                 <li>segunda a sexta: 07:00 ás 17:00 horas.</li>
@@ -31,10 +31,10 @@
                 <li>domingo: fechado.</li>
             </ul>
         </section>
-        <section id="novidades">
+        <section id="novidades" class="p-4 rounded shadow-sm">
             <h2>novidades que chegaram.</h2>
             <p>venha conferir!</p>
-            <div class="livros">
+            <div class="livros d-flex flex-wrap justify-content-center gap-4">
                 <figure class="card-livro">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFB3-CI53g4NZHuL5XtVohk7F9Bn6p2fJ3EykQH4JDZg&s=10"
                         alt="livro o Peregrino" width="125">
@@ -61,7 +61,7 @@
                 </figure>
             </div>
         </section>
-        <article id="clubes">
+        <article id="clubes" class="p-4 rounded shadow-sm">
             <h2>clubes de leitura:</h2>
             <h3>jovens espertos.</h3>
             <p>conversa entre jovens sobre temas atuais.</p>
@@ -70,34 +70,46 @@
             <h3>clube do amor</h3>
             <p>os romances mais classicos nas palmas da mãos.</p>
         </article>
-        <aside>
-            <div class="container">
+        <aside class="p-4 rounded shadow-sm">
+            <div class="container-servicos">
                 <div class="card-servicos">
                     <h4>serviços disponiveis:</h4>
                     <ol class="item-servico">
-                        <a href="">
-                            <li>📖 Programaçao Da Biblioteca. 📖</li>
-                        </a>
-                        <a href="">
-                            <li>📚 Emprestimos de livros. 📚</li>
-                        </a>
-                        <a href="">
-                            <li>💸 Doaçoes. 💸</li>
-                        </a>
-                        <a href="">
-                            <li>♾️ Renovar Livros. ♾️</li>
-                        </a>
+                        <li><a href="">📖 Programaçao Da Biblioteca. 📖</a></li>
+                        <li> <a href="">📚 Emprestimos de livros. 📚</a></li>
+                        <li> <a href="">💸 Doaçoes. 💸</a></li>
+                        <li><a href="">♾️ Renovar Livros. ♾️</a></li>
                     </ol>
                 </div>
             </div>
         </aside>
-        <footer id="contatos">
-            <p>contatos para informaçoes:</p>
-            <p>numero do WhatsApp: 84 98769-2345.</p>
-            <p>Email:bibliotecacomunitaria@gmail.com</p>
-            <a href="#inicio">volta ao inicio</a>
-        </footer>
     </main>
+    <footer id="contatos">
+        <div class="footer-container">
+            <div class="footer-bloco">
+                <h4>📚 Biblioteca Comunitária</h4>
+                <p>Conectando pessoas através da leitura.</p>
+            </div>
+            <div class="footer-bloco">
+                <h4>Contato</h4>
+                <p>📱 WhatsApp: (84) 98769-2345</p>
+                <p>📧 bibliotecacomunitaria@gmail.com</p>
+            </div>
+            <div class="footer-bloco">
+                <h4>Endereço</h4>
+                <p>Rua do Limão, 255</p>
+                <p>Bairro Casa Azul</p>
+                <p>Rio de Janeiro - RJ</p>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-bottom">
+            <a href="#topo" class="btn-topo">
+                ↑ Voltar ao início
+            </a>
+            <p>© 2026 Biblioteca Comunitária. Todos os direitos reservados.</p>
+        </div>
+    </footer>
 </body>
 
 </html>
