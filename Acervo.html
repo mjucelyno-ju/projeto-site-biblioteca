@@ -1,178 +1,224 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Acervo Da Biblioteca</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
-    <link rel="stylesheet" href="acervo.css">
+    <link rel="stylesheet" href="Acervo-estilo.css">
 </head>
-<body>
+
+<body class="bg-light text-dark">
     <header id="cabecalho" class="text-center py-5">
         <div class="container">
-            <h1>Acervo da Biblioteca de São Januário</h1>
-            <p>os melhores livros voce encontra aqui.</p>
+            <h1>Acervo Da Biblioteca De São Januário</h1>
+            <p>Os melhores livros você encontra aqui.</p>
+        </div>
     </header>
     <nav class="navbar d-flex flex-wrap justify-content-center py-3 gap-4">
         <a class="nav-link  fw-bold text-uppercase" href="index.html">Inicio</a>
         <a class="nav-link  fw-bold text-uppercase" href="Acervo.html">Acervo</a>
-        <a class="nav-link  fw-bold text-uppercase" href="#clubes">Clubes</a>
+        <a class="nav-link  fw-bold text-uppercase" href="#dicas">Dicas</a>
         <a class="nav-link  fw-bold text-uppercase" href="#contatos">Contatos</a>
     </nav>
-    <main class="container">
-    <section>
-         <form class="d-flex justify-content-center gap-2 my-4">
-    <input class="form-control w-50"
-        type="search"
-        placeholder="Buscar por título, autor ou gênero">
-    <button class="btn btn-success">
-        Pesquisar
-    </button>
-</form>
+    <main class="container py-4">
+        <section class="mb-5">
+            <form class="row justify-content-center g-2">
+                <div class="col-md-6">
+                    <label for="livro" class="visually-hidden">Buscar livro</label>
+                    <input id="livro" type="search" class="form-control"
+                        placeholder="Buscar por título, autor ou gênero">
+                </div>
+                <div class="col-auto">
+                    <button class="btn btn-success">Pesquisar</button>
+                </div>
+            </form>
         </section>
-        <article>
         <section>
-        <h2>Acervo de Livros</h2>
-<div class="inicio">
-    
-</div>
-        <div class="book-grid">
-            <div class="book-card">
-            <figure>
-                <img src="https://m.media-amazon.com/images/I/61x1ZHomWUL.jpg" alt="Dom Casmurro">
-                <div class="book-info">
-                    <h3>Dom Casmurro</h3>
-                    <p class="author">Machado de Assis</p>
-                    <p class="genre">Gênero: Romance / Literatura Brasileira</p>
-
-                    <button class="btn-detalhes">Ver Detalhes</button>
+            <h2 id="primeiro-h2" class="text-center mb-5">Acervo de Livros</h2>
+            <div class="row g-4">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <article class="card h-100 shadow">
+                        <img src="https://m.media-amazon.com/images/I/81zRlL3nSBL._UF1000,1000_QL80_.jpg"
+                            class="card-img-top" alt="Meu Querido Caipira">
+                        <div class="card-body d-flex flex-column">
+                            <h3 class="card-title h5">Meu Querido Caipira</h3>
+                            <p class="fw-bold text-secondary mb-1">Maina Mattos</p>
+                            <p class="text-body-secondary">Romance / Cristão</p>
+                            <a href="livro-reserva.html" class="btn btn-success mt-auto">Ver detalhes</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <article class="card h-100 shadow">
+                        <img src="https://m.media-amazon.com/images/I/61x1ZHomWUL.jpg" class="card-img-top"
+                            alt="Dom Casmurro">
+                        <div class="card-body d-flex flex-column">
+                            <h3 class="card-title h5">Dom Casmurro</h3>
+                            <p class="fw-bold text-secondary mb-1">Machado de Assis</p>
+                            <p class="text-body-secondary">Romance / Literatura Brasileira</p>
+                            <a href="#" class="btn btn-success mt-auto">Ver detalhes</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <article class="card h-100 shadow">
+                        <img src="https://m.media-amazon.com/images/I/61t0bwt1s3L._AC_UF1000,1000_QL80_.jpg"
+                            class="card-img-top" alt="1984">
+                        <div class="card-body d-flex flex-column">
+                            <h3 class="card-title h5">1984</h3>
+                            <p class="fw-bold text-secondary mb-1">George Orwell</p>
+                            <p class="text-body-secondary">Distopia / Ficção Científica</p>
+                            <a href="#" class="btn btn-success mt-auto">Ver detalhes</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <article class="card h-100 shadow">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFB3-CI53g4NZHuL5XtVohk7F9Bn6p2fJ3EykQH4JDZg&s=10"
+                            class="card-img-top" alt="O Peregrino">
+                        <div class="card-body d-flex flex-column">
+                            <h3 class="card-title h5">O Peregrino</h3>
+                            <p class="fw-bold text-secondary mb-1">John Bunyan</p>
+                            <p class="text-body-secondary">Alegoria Cristã / Ficção</p>
+                            <a href="#" class="btn btn-success mt-auto">Ver detalhes</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <article class="card h-100 shadow">
+                        <img src="https://m.media-amazon.com/images/I/81R+HyKqtwL._AC_UF1000,1000_QL80_.jpg"
+                            class="card-img-top" alt="Cristianismo Puro e Simples">
+                        <div class="card-body d-flex flex-column">
+                            <h3 class="card-title h5">Cristianismo Puro e Simples</h3>
+                            <p class="fw-bold text-secondary mb-1">C. S. Lewis</p>
+                            <p class="text-body-secondary">Cristão / Religioso</p>
+                            <a href="#" class="btn btn-success mt-auto">Ver detalhes</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <article class="card h-100 shadow">
+                        <img src="https://m.media-amazon.com/images/I/71RvlSmPk1L.jpg" class="card-img-top"
+                            alt="Meu Sol de Primavera">
+                        <div class="card-body d-flex flex-column">
+                            <h3 class="card-title h5">Meu Sol de Primavera</h3>
+                            <p class="fw-bold text-secondary mb-1">Queren Ane</p>
+                            <p class="text-body-secondary">Ficção Cristã Juvenil / Romance Adolescente</p>
+                            <a href="#" class="btn btn-success mt-auto">Ver detalhes</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <article class="card h-100 shadow">
+                        <img src="https://m.media-amazon.com/images/I/81yKgdRQqHL._AC_UF1000,1000_QL80_.jpg"
+                            class="card-img-top" alt="O Diário de Anne Frank">
+                        <div class="card-body d-flex flex-column">
+                            <h3 class="card-title h5">O Diário de Anne Frank</h3>
+                            <p class="fw-bold text-secondary mb-1">Anne Frank</p>
+                            <p class="text-body-secondary">Autobiografia / Não-ficção</p>
+                            <a href="#" class="btn btn-success mt-auto">Ver detalhes</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <article class="card h-100 shadow">
+                        <img src="https://m.media-amazon.com/images/I/71OL9RU2tJL.jpg" class="card-img-top"
+                            alt="Memórias Póstumas de Brás Cubas">
+                        <div class="card-body d-flex flex-column">
+                            <h3 class="card-title h5">Memórias Póstumas de Brás Cubas</h3>
+                            <p class="fw-bold text-secondary mb-1">Machado de Assis</p>
+                            <p class="text-body-secondary">Literatura Brasileira / Romance</p>
+                            <a href="#" class="btn btn-success mt-auto">Ver detalhes</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <article class="card h-100 shadow">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBiTazf1myPNzL6Cqo8wFp6Jhmrlrh5r_fiKRe4j0l0lyNHWG-zsnIZokS&s=10"
+                            class="card-img-top" alt="A Noite dos Mortos-Vivos">
+                        <div class="card-body d-flex flex-column">
+                            <h3 class="card-title h5">A Noite dos Mortos-Vivos</h3>
+                            <p class="fw-bold text-secondary mb-1">John Russo</p>
+                            <p class="text-body-secondary">Ficção Científica / Terror</p>
+                            <a href="#" class="btn btn-success mt-auto">Ver detalhes</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <article class="card h-100 shadow">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVXu-ai_TrjnTaFX-HBiMdCWAHlzUPBJGLKKNcv0EIYA&s=10"
+                            class="card-img-top" alt="O Pequeno Príncipe">
+                        <div class="card-body d-flex flex-column">
+                            <h3 class="card-title h5">O Pequeno Príncipe</h3>
+                            <p class="fw-bold text-secondary mb-1">Antoine de Saint-Exupéry</p>
+                            <p class="text-body-secondary">Literatura Infantil</p>
+                            <a href="#" class="btn btn-success mt-auto">Ver detalhes</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <article class="card h-100 shadow">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbjnrLaQCHPxAxPRSODw8jN6HQomq-ILF97vQc006s5Q&s=10"
+                            class="card-img-top" alt="Asas de Fogo">
+                        <div class="card-body d-flex flex-column">
+                            <h3 class="card-title h5">Asas de Fogo: a profecia dos dragões</h3>
+                            <p class="fw-bold text-secondary mb-1">Tui T. Sutherland</p>
+                            <p class="text-body-secondary">Literatura Infantojuvenil / Fantasia</p>
+                            <a href="#" class="btn btn-success mt-auto">Ver detalhes</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <article class="card h-100 shadow">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmOAafY3BOJJEFCQkcIuIgZt-pfIsZLJCbjcyD2BH-1A&s=10"
+                            class="card-img-top" alt=" Livros Dinos Do Brasil">
+                        <div class="card-body d-flex flex-column">
+                            <h3 class="card-title h5">Dinos Do Brasil</h3>
+                            <p class="fw-bold text-secondary mb-1">Luiz Eduardo Anelli</p>
+                            <p class="text-body-secondary">Literatura Infantil / Infanto-Juvenil</p>
+                            <a href="#" class="btn btn-success mt-auto">Ver detalhes</a>
+                        </div>
+                    </article>
                 </div>
             </div>
-            <div class="book-card">
-            </figure>
-            <figure>
-                <img src="https://m.media-amazon.com/images/I/61t0bwt1s3L._AC_UF1000,1000_QL80_.jpg" alt="1984">
-                <div class="book-info">
-                    <h3>1984</h3>
-                    <p class="author">George Orwell</p>
-                    <p class="genre">Gênero: Distopia / Ficção Científica</p>
-                    <button class="btn-detalhes">Ver Detalhes</button>
-                </div>
-            </div>
-            <div class="book-card">
-            </figure>
-            <figure>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFB3-CI53g4NZHuL5XtVohk7F9Bn6p2fJ3EykQH4JDZg&s=10" alt="O Peregrino">
-                <div class="book-info">
-                    <h3>O Peregrino</h3>
-                    <p class="author">John Bunyan</p>
-                    <p class="genre">Gênero: Alegoria Cristã / Ficção</p>
-                    <button class="btn-detalhes">Ver Detalhes</button>
-                </div>
-            </div>
-            <div class="book-card">
-            </figure>
-            <figure>
-  
-                <img src="https://m.media-amazon.com/images/I/81R+HyKqtwL._AC_UF1000,1000_QL80_.jpg" alt="Cristianismo Puro e Simples">
-                <div class="book-info">
-                    <h3>Cristianismo Puro e Simples</h3>
-                    <p class="author">C. S. Lewis</p>
-                    <p class="genre">Gênero: Cristão / Religioso</p>
-                    <button class="btn-detalhes">Ver Detalhes</button>
-                </div>
-            </div>
-            <div class="book-card">
-            </figure>
-            <figure>
-                <img src="https://m.media-amazon.com/images/I/71RvlSmPk1L.jpg" alt="Meu Sol de Primavera">
-                <div class="book-info">
-                    <h3>Meu Sol de Primavera</h3>
-                    <p class="author">Queren Ane</p>
-                    <p class="genre">Gênero: Ficção Cristã Juvenil / Romance Adolescente</p>
-                    <button class="btn-detalhes">Ver Detalhes</button>
-                </div>
-            </div>
-            <div class="book-card">
-            </figure>
-            <figure>
-                <img src="https://m.media-amazon.com/images/I/81yKgdRQqHL._AC_UF1000,1000_QL80_.jpg" alt="O Diário de Anne Frank">
-                <div class="book-info">
-                    <h3>O Diário de Anne Frank</h3>
-                    <p class="author">Anne Frank</p>
-                    <p class="genre">Gênero: Autobiografia / Não-ficção</p>
-                    <button class="btn-detalhes">Ver Detalhes</button>
-                </div>
-            </div>
-            <div class="book-card">
-            </figure>
-            <figure>
-                <img src="https://m.media-amazon.com/images/I/71OL9RU2tJL.jpg" alt="Memórias Póstumas de Brás Cubas">
-                <div class="book-info">
-                    <h3>Memórias Póstumas de Brás Cubas</h3>
-                    <p class="author">Machado de Assis</p>
-                    <p class="genre">Gênero: Literatura Brasileira / Romance</p>
-                    <button class="btn-detalhes">Ver Detalhes</button>
-                </div>
-            </div>
-        <div class="book-card">
-        </figure>
-        <figure>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBiTazf1myPNzL6Cqo8wFp6Jhmrlrh5r_fiKRe4j0l0lyNHWG-zsnIZokS&s=10" alt="A noite dos mortos-vivos">
-            <div class="book-info">
-                <h3>A Noite dos Mortos-Vivos</h3>
-                <p class="author">John Russo</p>
-                <p class="genre">Gênero: Ficção científica / Terror</p>
-                <button class="btn-detalhes">Ver detalhes <link rel="stylesheet" href=""></button>
-                </figure>
-                <figure>
-                <img src="https://m.media-amazon.com/images/I/81zRlL3nSBL._UF1000,1000_QL80_.jpg" alt="Meu querido caipira">
-            <div class="book-info">
-                <h3>Meu querido caipira</h3>
-                <p class="author">Maina Mattos</p>
-                <p class="genre">Romance / Cristão</p>
-              <a href="livros-reservas.html">
-    <button class="btn-detalhes">Ver Detalhes</button>
-</a>
-        </div>
-        </figure>
-            </section>
-            </article>
-            <aside>
-                <h4>dicas de como escolher seu primeiro livro</h4>
-                <ol>
-                    <li>comece por  um gênero que você já gosta</li>
-                    <li>Prefira livros finos (menos de 200 páginas)</li>
-                    <li> escolha Livros que viraram filmes/séries.</li>
-                    <li>Analise o livro além da capa</li>
-                </ol>
-            </aside>
+        </section>
+        <aside class="alert alert-warning border-start border-5 border-warning shadow-sm mt-5 text-center">
+            <h4 id="dicas">Dicas de como escolher seu primeiro livro</h4>
+            <ol class="mb-0 list-unstyled">
+                <li>1- Comece por um gênero que você já gosta.</li>
+                <li>2- Prefira livros com menos de 200 páginas.</li>
+                <li>3- Escolha livros que viraram filmes ou séries.</li>
+                <li>4- Analise o conteúdo, não apenas a capa.</li>
+            </ol>
+        </aside>
     </main>
-      <footer id="contatos">
-        <div class="footer-container">
-            <div class="footer-bloco">
-                <h4>📚 Biblioteca Comunitária</h4>
-                <p>Conectando pessoas através da leitura.</p>
+    <footer id="contatos" class="mt-5 py-5 ">
+        <div class="container">
+            <div class="row text-center text-md-start g-4">
+                <section class="col-md-4">
+                    <h4>📚 Biblioteca Comunitária</h4>
+                    <p>Conectando pessoas através da leitura.</p>
+                </section>
+                <section class="col-md-4">
+                    <h4>Contato</h4>
+                    <p>📱 WhatsApp: (84) 98769-2345</p>
+                    <p>📧 bibliotecacomunitaria@gmail.com</p>
+                </section>
+                <section class="col-md-4">
+                    <h4>Endereço</h4>
+                    <p>Rua do Limão, 255</p>
+                    <p>Bairro Casa Azul</p>
+                    <p>Rio de Janeiro - RJ</p>
+                </section>
             </div>
-            <div class="footer-bloco">
-                <h4>Contato</h4>
-                <p>📱 WhatsApp: (84) 98769-2345</p>
-                <p>📧 bibliotecacomunitaria@gmail.com</p>
+            <hr>
+            <div class="text-center">
+                <a href="#cabecalho" class="btn btn-info text-white mb-3">↑ Voltar ao início</a>
+                <p>© 2026 Biblioteca Comunitária. Todos os direitos reservados.</p>
             </div>
-            <div class="footer-bloco">
-                <h4>Endereço</h4>
-                <p>Rua do Limão, 255</p>
-                <p>Bairro Casa Azul</p>
-                <p>Rio de Janeiro - RJ</p>
-            </div>
-        </div>
-        <hr>
-        <div class="footer-bottom">
-            <a href="#cabecalho" class="btn-topo">
-                ↑ Voltar ao início
-            </a>
-            <p>© 2026 Biblioteca Comunitária. Todos os direitos reservados.</p>
         </div>
     </footer>
 </body>
