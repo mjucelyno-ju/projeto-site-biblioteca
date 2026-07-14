@@ -1,4 +1,4 @@
-* {
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -7,13 +7,11 @@
 body {
     font-family:Arial, Helvetica, sans-serif;
     background-color: #f1f5f9;
-    line-height: 1.6;
     color: #334155;
 }
 
 #comeco {
     background-color: #475569;
-    text-align: center;
     font-weight: bold;
     padding: 1rem;
     text-transform: uppercase;
@@ -71,6 +69,18 @@ h2 {
     border-bottom: 2px solid #cbd5e1;
 }
 
+form {
+    background-color: #f8fafc;
+    padding: 1.5rem;
+    border-radius: 6px;
+    border: 1px solid #e2e8f0;
+    gap: 1rem;
+}
+
+nav{
+    color:white;
+}
+
 #descricao p {
     margin-bottom: 0.5rem;
     font-size: 1rem;
@@ -81,14 +91,6 @@ th {
     color: #475569;
     text-transform: uppercase;
     font-size: 0.85rem;
-}
-
-form {
-    background-color: #f8fafc;
-    padding: 1.5rem;
-    border-radius: 6px;
-    border: 1px solid #e2e8f0;
-    gap: 1rem;
 }
 
 label {
@@ -105,32 +107,11 @@ input:focus {
 footer {
     background: #0f172a;
     color: #cbd5e1;
-    margin-top: 50px;
-    padding: 40px 20px 20px;
 }
 
-.footer-container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 30px;
-    max-width: 1100px;
-    margin: auto;
-}
-
-.footer-bloco {
-    flex: 1;
-    min-width: 220px;
-}
-
-.footer-bloco h4 {
+footer h4 {
     color: #38bdf8;
-    margin-bottom: 15px;
-}
-
-.footer-bloco p {
-    margin: 8px 0;
-    line-height: 1.6;
+    font-weight: bold;
 }
 
 footer hr {
@@ -138,39 +119,4 @@ footer hr {
     border: none;
     border-top: 1px solid #334155;
     max-width: 1100px;
-}
-
-.footer-bottom {
-    text-align: center;
-}
-
-.btn-topo {
-    display: inline-block;
-    background: #2889b2;
-    color: white;
-    text-decoration: none;
-    padding: 10px 18px;
-    border-radius: 30px;
-    font-weight: bold;
-    transition: 0.3s;
-    margin-bottom: 15px;
-}
-
-.btn-topo:hover {
-    background: #0ea5e9;
-    transform: translateY(-3px);
-}
-
-.footer-bottom p {
-    margin-top: 10px;
-    color: #94a3b8;
-}
-
-@media (max-width: 768px) {
-
-    .footer-container {
-        flex-direction: column;
-        text-align: center;
-    }
-
 }
