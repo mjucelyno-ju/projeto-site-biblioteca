@@ -4,14 +4,14 @@
 <head>
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <title>livros-reservas</title>
+    <title>Livros-Reservas</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
     <link rel='stylesheet' href='reserva.css'>
 </head>
 
-<body id="topo">
-    <header id="comeco" class="text-center text-white py-4">
+<body id="topo" class="bg-light text-dark">
+    <header id="comeco" class="text-center text-white py-4 fw-bold">
         <h1>Biblioteca Comunitária da Cidade de São Januario.</h1>
     </header>
      <nav class="navbar d-flex flex-wrap justify-content-center py-3 gap-4">
@@ -38,7 +38,7 @@
             <p><strong>Editora: </strong>Thomas Nelson Brasil</p>
             <p><strong>Ano: </strong>2022</p>
             <p><strong>Páginas: </strong>196</p>
-            <p><strong>idioma: </strong>Português</p>
+            <p><strong>Idioma: </strong>Português</p>
             <p><strong>Gênero: </strong>Romance e Literatura Cristã</p>
         </section>
         <section id="sinopse" class="mb-5">
@@ -54,11 +54,11 @@
                     <caption class="fs-5 fw-bold">Exemplares</caption>
                     <thead>
                         <tr>
-                            <th scope="col">codigo</th>
-                            <th scope="col">Localização</th>
-                            <th scope="col">tipo</th>
-                            <th scope="col">status</th>
-                            <th scope="col">data de devoluçao</th>
+                            <th class="text-uppercase" scope="col">codigo</th>
+                            <th class="text-uppercase" scope="col">Localização</th>
+                            <th class="text-uppercase" scope="col">tipo</th>
+                            <th class="text-uppercase" scope="col">status</th>
+                            <th class="text-uppercase" scope="col">data de devoluçao</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -105,8 +105,8 @@
                     <label for="email">Email:</label>
                     <input id="email" name="email" type="email" required placeholder="exemplo@email.com"
                         class="form-control" autocomplete="email">
-                    <label for="data-de-devolucao">data de devoluçao:</label>
-                    <input id="data-de-devolucao" name="data-de-devolucao" type="date" class="form-control">
+                    <label for="data-de-devolucao">Data De Devoluçao:</label>
+                    <input id="data-de-devolucao" name="data-de-devolucao" type="date"  class="form-control" required>
                     <div class="d-flex gap-2 mt-3">
                         <button type="submit" class="btn btn-success">Confirmar Reserva</button>
                         <button type="reset" class="btn btn-secondary">Limpar</button>
@@ -119,7 +119,7 @@
         <div class="container">
             <div class="row text-center text-md-start g-4">
                 <section class="col-md-4">
-                    <h4>📚 Biblioteca Comunitária</h4>
+                    <h4 class="fw-bold">📚 Biblioteca Comunitária</h4>
                     <p>Conectando pessoas através da leitura.</p>
                 </section>
                 <section class="col-md-4">
