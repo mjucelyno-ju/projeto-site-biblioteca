@@ -11,15 +11,15 @@
 </head>
 
 <body id="topo">
-    <header id="comeco" class="bg-dark text-center text-white py-4">
+    <header id="comeco" class="text-center text-white py-4">
         <h1>Biblioteca Comunitária da Cidade de São Januario.</h1>
     </header>
-    <nav>
-        <a href="index.html">Início</a>
-        <a href="Acervo.html">Acervo</a>
-        <a href="#formulario">serviços</a>
-        <a href="#contatos">Contatos</a>
-        <a href="#sinopse">sinopse</a>
+     <nav class="navbar d-flex flex-wrap justify-content-center py-3 gap-4">
+        <a class="nav-link  fw-bold text-uppercase" href="index.html">Inicio</a>
+        <a class="nav-link  fw-bold text-uppercase" href="Acervo.html">Acervo</a>
+        <a class="nav-link  fw-bold text-uppercase" href="#formulario">Serviços</a>
+        <a class="nav-link  fw-bold text-uppercase" href="#contatos">Contatos</a>
+        <a class="nav-link  fw-bold text-uppercase" href="#sinopse">Sinopse</a>
     </nav>
     <main class="container my-5 p-4 bg-white rounded shadow">
         <section class="text-center bg-light p-4 rounded border">
@@ -96,7 +96,7 @@
         </article>
         <aside>
             <h3 class="text-center text-success text-uppercase">formulario de reserva</h3>
-            <form id="formulario" class="d-flex flex-column gap-3">
+            <form id="formulario" class="bg-light p-4 rounded border d-flex flex-column gap-3">
                 <fieldset>
                     <legend>Dados para Reserva</legend>
                     <label for="nome">Nome:</label>
@@ -115,30 +115,32 @@
             </form>
         </aside>
     </main>
-    <footer id="contatos">
-        <div class="footer-container">
-            <div class="footer-bloco">
-                <h4>📚 Biblioteca Comunitária</h4>
-                <p>Conectando pessoas através da leitura.</p>
+    <footer id="contatos" class="mt-5 py-5 ">
+        <div class="container">
+            <div class="row text-center text-md-start g-4">
+                <section class="col-md-4">
+                    <h4>📚 Biblioteca Comunitária</h4>
+                    <p>Conectando pessoas através da leitura.</p>
+                </section>
+                <section class="col-md-4">
+                    <h4>Contato</h4>
+                    <p>📱 WhatsApp: (84) 98769-2345</p>
+                    <p>📧 bibliotecacomunitaria@gmail.com</p>
+                </section>
+                <section class="col-md-4">
+                    <h4>Endereço</h4>
+                    <p>Rua do Limão, 255</p>
+                    <p>Bairro Casa Azul</p>
+                    <p>Rio de Janeiro - RJ</p>
+                </section>
             </div>
-            <div class="footer-bloco">
-                <h4>Contato</h4>
-                <p>📱 WhatsApp: (84) 98769-2345</p>
-                <p>📧 bibliotecacomunitaria@gmail.com</p>
-            </div>
-            <div class="footer-bloco">
-                <h4>Endereço</h4>
-                <p>Rua do Limão, 255</p>
-                <p>Bairro Casa Azul</p>
-                <p>Rio de Janeiro - RJ</p>
+            <hr>
+            <div class="text-center">
+                <a href="#topo" class="btn btn-info text-white mb-3">↑ Voltar ao início</a>
+                <p>© 2026 Biblioteca Comunitária. Todos os direitos reservados.</p>
             </div>
         </div>
-        <hr>
-        <div class="footer-bottom">
-            <a href="#topo" class="btn-topo">↑ Voltar ao início</a>
-            <p>© 2026 Biblioteca Comunitária. Todos os direitos reservados.</p>
-        </div>
-    </footer>
+    </footer> 
 </body>
 
 </html>
