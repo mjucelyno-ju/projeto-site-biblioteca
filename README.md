@@ -231,18 +231,31 @@ com css autoral o estilo do site fica mais autêntico e mais bonito,as cores fic
 ## Créditos.
 
 Links das imagens utilizadas:
+
  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFB3-CI53g4NZHuL5XtVohk7F9Bn6p2fJ3EykQH4JDZg&s=10"
+
  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZhWcvUFkdHII3ZMu_NfzUWkcODUg3p976JDE0uiceEQ&s=10"
+
  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkcQUXr5zjmic2PoPRTgYWxbLHDVW6gcEj6_KMFaewKw&s"
+
  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuuzXJIk4Wpya8rVF6eMY_T1OStovmwoKNsp_nxrm9Uw&s=10"
+
  "https://m.media-amazon.com/images/I/81zRlL3nSBL._UF1000,1000_QL80_.jpg"
+
  "https://m.media-amazon.com/images/I/61x1ZHomWUL.jpg"
+
  "https://m.media-amazon.com/images/I/61t0bwt1s3L._AC_UF1000,1000_QL80_.jpg"
+
  "https://m.media-amazon.com/images/I/81yKgdRQqHL._AC_UF1000,1000_QL80_.jpg"
+
  "https://m.media-amazon.com/images/I/71OL9RU2tJL.jpg"
+
  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBiTazf1myPNzL6Cqo8wFp6Jhmrlrh5r_fiKRe4j0l0lyNHWG-zsnIZokS&s=10"
+
  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVXu-ai_TrjnTaFX-HBiMdCWAHlzUPBJGLKKNcv0EIYA&s=10"
+
  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbjnrLaQCHPxAxPRSODw8jN6HQomq-ILF97vQc006s5Q&s=10"
+
  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmOAafY3BOJJEFCQkcIuIgZt-pfIsZLJCbjcyD2BH-1A&s=10"
 
 
