@@ -33,119 +33,119 @@ o framework foi utilizado da  seguinte  maneira:
 
  Layout responsivo:
 
-.container
-.row
-.col-md-4
-.col-12
-.col-sm-6
-.col-lg-3
-.d-flex
-.flex-column
-.flex-wrap
-.justify-content-center
-.gap-4
-.mx-auto
-.table-responsive
-.img-fluid
+container,
+row,
+col-md-4,
+col-12,
+col-sm-6,
+col-lg-3,
+d-flex,
+flex-column,
+flex-wrap,
+justify-content-center,
+gap-4,
+mx-auto,
+table-responsive,
+img-fluid.
 
  Espaçamentos:
 
-.p-4
-.p-3
-.p-2
-.py-5
-.my-4
-.my-5 
-.mt-5
-.mb-2
-.mb-3
-.g-2
-.g-4
-.g-4
-.gap-3 
-.gap-4 
+p-4,
+p-3,
+p-2,
+py-5,
+my-4,
+my-5, 
+mt-5,
+mb-2,
+mb-3,
+g-2,
+g-4,
+g-4,
+gap-3, 
+gap-4. 
 
  Cores:
 
-.bg-light
-.bg-white
-.text-white
-.text-secondary
-.text-info
-.text-dark
-.btn-success
-.btn-info
-.alert-warning
-.text-success
-.btn-success
-.btn-secondary
-.btn-info
-.badge
-.bg-success
-.bg-danger
+bg-light,
+bg-white,
+text-white,
+text-secondary,
+text-info,
+text-dark,
+btn-success,
+btn-info,
+alert-warning,
+text-success,
+btn-success,
+btn-secondary,
+btn-info,
+badge,
+bg-success,
+bg-danger.
 
  Bordas:
 
-.border
-.border-start
-.border-5
-.border-danger
-.border-warning
-.border-success
-.rounded
-.rounded-3
+border,
+border-start,
+border-5,
+border-danger,
+border-warning,
+border-success,
+rounded,
+rounded-3.
 
  Tipografia:
 
-.display-5
-.fw-bold
-.text-center
-.text-md-start
-.text-uppercase
-.text-secondary
-.text-body-secondary
-.fs-5
+display-5,
+fw-bold,
+text-center,
+text-md-start,
+text-uppercase,
+text-secondary,
+text-body-secondary,
+fs-5.
 
  Componentes:
 
-.navbar
-.nav-link
-.card
-.btn
-.btn-info
-.shadow-sm
-.h-100
-.card-body
-.card-img-top
-.form-control
-.alert
-.table
-.table-striped 
-.table-hover
-.table-bordered
-.badge
+navbar,
+nav-link,
+card,
+btn,
+btn-info,
+shadow-sm,
+h-100,
+card-body,
+card-img-top,
+form-control,
+alert,
+table,
+table-striped, 
+table-hover,
+table-bordered,
+badge.
 
  Flexbox:
 
-.d-flex
-.flex-wrap
-.justify-content-center
-.flex-column
+d-flex, 
+flex-wrap,
+justify-content-center,
+flex-column.
 
  Sombras:
 
-.shadow
-.shadow-sm
+shadow,
+shadow-sm.
 
  Alinhamentos:
 
-.text-center
-.text-md-start
-.d-flex
-.flex-column
-.flex-wrap
-.justify-content-center
-.align-middle
+text-center,
+text-md-start,
+d-flex,
+flex-column,
+flex-wrap,
+justify-content-center,
+align-middle.
 
 
 ## O Que permaneceu autoral.
@@ -222,13 +222,17 @@ Também são autorais todos os IDs como:
 
 .item-servico
 
+.entre outros..
+
 ## justificativas do css autoral.
 
-para melhor identidade do site 
+com css autoral o estilo do site fica mais autêntico e mais bonito,as cores ficam mais vivas e não algo robótico,mais controle de efeitos  no site,e mais formas de fazer algo novo e inovador.
 
 ## Créditos.
 
-Imagens, textos e referências utilizadas.
+Links das imagens utilizadas:
+
+
 
 ## Link do site publicado
 
