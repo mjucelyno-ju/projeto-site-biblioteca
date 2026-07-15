@@ -41,4 +41,4 @@ URL do GitHub Pages ou outra publicação.
 
 ## Link do repositório
 
-URL do repositório no GitHub.
+ para acessar o repositório use: https://github.com/mjucelyno-ju/projeto-site-biblioteca
