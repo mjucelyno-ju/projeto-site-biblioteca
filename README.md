@@ -6,6 +6,12 @@ Biblioteca comunitaria de uma cidade fictícia chamada São Januário,uma biblio
 
 Biblioteca Janela Aberta — acervo comunitário.
 
+## Autores:
+
+-Jucelyno Marlon Batista da Silva
+
+-Samyr Fernandes Silva
+
 ## Público-alvo
 
 para pessoas que gostam de leitura,é boas histórias.
