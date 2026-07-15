@@ -1,16 +1,40 @@
-# projeto-site-biblioteca
- site de uma biblioteca comunitaria de uma cidade ficticia,chamanda sao januario.
-# Projeto com Git e GitHub
+# Nome do Projeto
 
-Projeto de prática da disciplina de Padrões Web.
+Breve descrição do projeto.
+
+## Tema
+
+Tema escolhido no catálogo do projeto integrador.
+
+## Público-alvo
+
+Quem o site pretende atender.
 
 ## Objetivo
 
-Aprender a versionar um projeto Web com Git e publicar o repositório no GitHub.
+Qual problema ou necessidade o site aborda.
 
-## Tecnologias
+## Mapa do site
+
+- Página inicial
+- Página de listagem ou catálogo
+- Página de detalhe, formulário ou contato
+
+## Tecnologias utilizadas
 
 - HTML
 - CSS
-- Git
-- GitHub
+- Bootstrap
+- Git e GitHub
+
+## Créditos
+
+Imagens, textos e referências utilizadas.
+
+## Link do site publicado
+
+URL do GitHub Pages ou outra publicação.
+
+## Link do repositório
+
+URL do repositório no GitHub.
