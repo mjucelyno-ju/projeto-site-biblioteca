@@ -1,18 +1,18 @@
-# Nome do Projeto
+# Biblioteca comunitária. 
 
-Breve descrição do projeto.
+Biblioteca comunitaria de uma cidade fictícia chamada São Januário,uma biblioteca com Página inicial,acervo e página de reserva.
 
 ## Tema
 
-Tema escolhido no catálogo do projeto integrador.
+Biblioteca Janela Aberta — acervo comunitário.
 
 ## Público-alvo
 
-Quem o site pretende atender.
+para pessoas que gostam de leitura,é boas histórias.
 
 ## Objetivo
 
-Qual problema ou necessidade o site aborda.
+quem  que ler um bom livro,mais não sabe onde encontrar.
 
 ## Mapa do site
 
