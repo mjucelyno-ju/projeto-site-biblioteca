@@ -16,7 +16,7 @@ quem  que ler um bom livro,mais não sabe onde encontrar.
 
 ## Mapa do site
 
- Página inicial  contem:
+ -Página inicial  contem:
 
  Horários de Funcionamento,
  Novidades Que Chegaram,
@@ -24,14 +24,14 @@ quem  que ler um bom livro,mais não sabe onde encontrar.
  Serviços Disponíveis,
  contatos.
  
-Página do Acervo:
+-Página do Acervo:
 
 barra de pesquisa para buscar livros,
 acervo dos livros,
 Dicas de como escolher seu primeiro livro,
 contatos.
 
-Página de reserva dos livros:
+-Página de reserva dos livros:
 
 título do livro,
 descriçao do livro,
