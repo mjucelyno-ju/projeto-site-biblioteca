@@ -16,9 +16,29 @@ quem  que ler um bom livro,mais não sabe onde encontrar.
 
 ## Mapa do site
 
-- Página inicial
-- Página de listagem ou catálogo
-- Página de detalhe, formulário ou contato
+ Página inicial  contem:
+
+ -Horários de Funcionamento.
+ -Novidades Que Chegaram.
+ -Clubes De Leitura.
+ -Serviços Disponíveis.
+ -contatos
+ 
+Página do Acervo:
+
+-barra de pesquisa para buscar livros.
+-acervo dos livros.
+-Dicas de como escolher seu primeiro livro.
+-contatos
+
+Página de reserva dos livros:
+
+-título do livro.
+-descriçao do livro.
+-sinopse do livro.
+-tabela de disponibilidade do livro.
+-formulario de reserva.
+-contatos
 
 ## Tecnologias utilizadas
 
@@ -261,7 +281,7 @@ Links das imagens utilizadas:
 
 ## Link do site publicado
 
-URL do GitHub Pages ou outra publicação.
+Link do site na web: https://mjucelyno-ju.github.io/projeto-site-biblioteca/
 
 ## Link do repositório
 
