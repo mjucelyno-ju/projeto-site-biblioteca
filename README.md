@@ -18,27 +18,27 @@ quem  que ler um bom livro,mais não sabe onde encontrar.
 
  Página inicial  contem:
 
- -Horários de Funcionamento.
- -Novidades Que Chegaram.
- -Clubes De Leitura.
- -Serviços Disponíveis.
- -contatos
+ Horários de Funcionamento,
+ Novidades Que Chegaram,
+ Clubes De Leitura,
+ Serviços Disponíveis,
+ contatos.
  
 Página do Acervo:
 
--barra de pesquisa para buscar livros.
--acervo dos livros.
--Dicas de como escolher seu primeiro livro.
--contatos
+barra de pesquisa para buscar livros,
+acervo dos livros,
+Dicas de como escolher seu primeiro livro,
+contatos.
 
 Página de reserva dos livros:
 
--título do livro.
--descriçao do livro.
--sinopse do livro.
--tabela de disponibilidade do livro.
--formulario de reserva.
--contatos
+título do livro,
+descriçao do livro,
+sinopse do livro,
+tabela de disponibilidade do livro,
+formulario de reserva,
+contatos.
 
 ## Tecnologias utilizadas
 
