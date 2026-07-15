@@ -27,7 +27,11 @@ Qual problema ou necessidade o site aborda.
 - Bootstrap
 - Git e GitHub
 
-## Créditos
+## Uso do framework bootstrap.
+
+## O Que permaneceu autoral.
+
+## Créditos.
 
 Imagens, textos e referências utilizadas.
 
