@@ -14,7 +14,7 @@ Biblioteca Janela Aberta — acervo comunitário.
 
 ## Público-alvo
 
-para pessoas que gostam de leitura,é boas histórias.
+para pessoas que gostam de leitura,e boas histórias.
 
 ## Objetivo
 
